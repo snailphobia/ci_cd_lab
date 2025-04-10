@@ -20,5 +20,8 @@ jobs:
       - name: Install dependencies
         run: go mod download
 
+      - name: Test
+        run: go test ./main_test.go
+
       - name: Compile binary
         run: go build -o myapp
