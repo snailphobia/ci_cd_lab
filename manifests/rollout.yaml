@@ -22,7 +22,7 @@ spec:
     spec:
       containers:
         - name: webserver
-          image: ghcr.io/snailphobia/ci_cd_lab:latest
+          image: ghcr.io/snailphobia/ci_cd_lab:doesnotexist
           ports:
             - containerPort: 8080
           imagePullPolicy: Always
